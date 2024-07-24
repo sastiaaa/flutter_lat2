@@ -1,5 +1,17 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_lat2/tugas.dart';
+import 'package:flutter_lat2/form_widget.dart';
+import 'package:flutter_lat2/home_page.dart';
+// import 'package:flutter_lat2/home_page.dart';
+// import 'package:flutter_lat2/layouting_example.dart';
+
+// import 'layouting.dart';
+// import 'package:flutter_lat2/tabbar_widget.dart';
+
+// import 'package:flutter_lat2/home_page.dart';
+
+// import 'dialog_widget.dart';
+// import 'listview_widget.dart';
+// import 'layouting_example.dart';
 
 void main() {
   runApp(const MyApp());
@@ -32,7 +44,9 @@ class MyApp extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
         useMaterial3: true,
       ),
-      home: const Tugas(),
+      // home: const HomePage(),
+      home: HomePage(),
     );
   }
 }
+  
